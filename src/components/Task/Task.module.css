@@ -1,0 +1,26 @@
+.container {
+  margin-top: 1.5rem;
+  background: var(--gray-400);
+  padding: 1rem;
+  width: 46rem;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.container span {
+  line-height: 1.6;
+}
+
+.CompleteTask{
+  opacity: 0.7;
+  text-decoration: line-through
+}
+
+
+.completedTask {
+  color: var(--purple-dark);
+}

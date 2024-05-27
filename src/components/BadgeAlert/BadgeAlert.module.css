@@ -1,0 +1,12 @@
+.BadgeContainer{
+  border-top: 2px solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  width: 46rem;
+  height: 15.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

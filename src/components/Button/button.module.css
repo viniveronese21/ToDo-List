@@ -1,0 +1,21 @@
+button {
+  background: transparent;  
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 0; 
+}
+
+.buttonComplete {
+  color: var(--blue);
+}
+
+.buttonTrash {
+  color: var(--gray-300);
+}
+
+
+.buttonTrash:hover {
+  color: var(--danger);
+  transition:  color 0.2s;
+}
